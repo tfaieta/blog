@@ -63,11 +63,11 @@ const TemplateWrapper = ({ children }) => (
 <div style={{ flex: 1 }}>
                 <Sidebar
                   title="Tony Faieta"
-                  description="Articles on a variety of things."
+                  description="Articles about my tiny wins in design and development."
                 />
                 <Sidebar
                   title="About author"
-                  description="Full Stack Web Developer based out of Gainesville, FL."
+                  description="Currently at Tess developing awesome podcasting software and applications. I like to design and code and I'm based out of Gainesville, FL. Feel free to tweet me @tfaieta if you like or dislike any of my content."
                 />
               </div>
             </div>
