@@ -23,7 +23,7 @@ const Header = () => (
             textDecoration: 'none',
           }}
         >
-          CodeStack
+          Tiny Wins
         </Link>
       </h1>
     </div>
