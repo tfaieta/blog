@@ -63,7 +63,7 @@ const TemplateWrapper = ({ children }) => (
 <div style={{ flex: 1 }}>
                 <Sidebar
                   title="Tony Faieta"
-                  description="Articles about my tiny wins in design and development."
+                  description="Articles about my tiny wins in design, development, and my life."
                 />
                 <Sidebar
                   title="About author"
