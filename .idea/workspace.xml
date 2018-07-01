@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fcda49c-0118-4b52-9826-3042bde5fb77" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/PodcastList.js" afterPath="$PROJECT_DIR$/src/components/PodcastList.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/BookList.js" afterPath="$PROJECT_DIR$/src/components/BookList.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,8 +20,8 @@
       <file leaf-file-name="BookList.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/BookList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+            <state relative-caret-position="795">
+              <caret line="53" column="144" lean-forward="false" selection-start-line="53" selection-start-column="144" selection-end-line="53" selection-end-column="144" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -55,7 +55,6 @@
         <option value="$PROJECT_DIR$/src/pages/blog.js" />
         <option value="$PROJECT_DIR$/src/layouts/index.js" />
         <option value="$PROJECT_DIR$/src/utils/mdtoHTML.js" />
-        <option value="$PROJECT_DIR$/src/components/BookList.js" />
         <option value="$PROJECT_DIR$/src/components/Book.js" />
         <option value="$PROJECT_DIR$/src/components/Podcast.js" />
         <option value="$PROJECT_DIR$/src/pages/books.js" />
@@ -64,6 +63,7 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/components/Image.js" />
         <option value="$PROJECT_DIR$/src/components/PodcastList.js" />
+        <option value="$PROJECT_DIR$/src/components/BookList.js" />
       </list>
     </option>
   </component>
@@ -238,12 +238,12 @@
       <workItem from="1529938475099" duration="73000" />
       <workItem from="1529938575527" duration="18000" />
       <workItem from="1530309515805" duration="45000" />
-      <workItem from="1530395028846" duration="17108000" />
+      <workItem from="1530395028846" duration="17894000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17508000" />
+    <option name="totallyTimeSpent" value="18294000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1024" height="1280" extended-state="0" />
@@ -521,8 +521,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/BookList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        <state relative-caret-position="795">
+          <caret line="53" column="144" lean-forward="false" selection-start-line="53" selection-start-column="144" selection-end-line="53" selection-end-column="144" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
