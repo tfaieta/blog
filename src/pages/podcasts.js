@@ -1,5 +1,5 @@
 import React from 'react'
-import BookList from '../components/BookList'
+import PodcastList from '../components/PodcastList'
 import mdToHTML from '../utils/mdToHTML'
 
 export default function PodcastPage() {
@@ -12,6 +12,6 @@ favorite. Below is a list of podcasts that I like enough to share with the world
  ever need a podcast recommendation. I love when people recommend podcasts to me, so
  if you want to recommend me one feel free to tweet me [@tfaieta](https://twitter.com/tfaieta)
     `)}
-        <BookList />
+        <PodcastList />
     </div>
 }

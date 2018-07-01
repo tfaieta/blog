@@ -1,28 +1,15 @@
 import React from 'react'
-import Helmet from 'react-helmet'
-import '../layouts/index.css'
-import '../styles/layout-override.css';
 
-const Library = () => (
-    <div>
-        <Helmet
-            title="Blog"
-            meta={[
-                { name: "description", content: "Sample" },
-                { name: "keywords", content: "sample, something" }
-            ]}
-        />
+import BookList from '../components/BookList'
+import mdToHTML from '../utils/mdToHTML'
+
+export default function LibraryPage() {
+    return <div className="mxl">
+        <h1>Library</h1>
+        {mdToHTML(`
+A collection of my favorite books.
+    `)}
+
+        <BookList />
     </div>
-);
-
-export default Library
-
-export const query = graphql`
-  query libraryQuery {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`;
+}
