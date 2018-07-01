@@ -22,11 +22,7 @@ const links = [
     {
         to: "/books",
         label: "Library",
-    },
-    {
-        to: "/portfolio",
-        label: "Portfolio",
-    },
+    }
 ];
 
 const Header = ({siteTitle}) => (
