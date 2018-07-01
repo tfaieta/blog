@@ -1,24 +1,14 @@
 import React from 'react'
-import Imgix from 'react-imgix'
+import Img from 'react-image'
 
 import mdToHTML from '../utils/mdToHTML'
 
 class Image extends React.Component {
   render() {
-    const url = (
-      process.env.NODE_ENV &&
-      process.env.NODE_ENV.toUpperCase() === 'DEVELOPMENT'
-    )
-      ? `${process.env.PUBLIC_URL || ''}/uploads/${this.props.src}`
-      : `https://daneden.imgix.net/${this.props.src}`;
 
     const img = (
-      <Imgix
-        aggressiveLoad={true}
-        customParams={{ fm: "pjpg" }}
-        defaultWidth={200}
-        fit="max"
-        src={url}
+      <Img
+        src={this.props.src}
       />
     );
 
