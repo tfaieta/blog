@@ -1,0 +1,11 @@
+/*
+ * Wrap object
+ * ===========
+ *
+ */
+
+.wrap {
+  box-sizing: initial;
+  margin: 0 auto;
+  max-width: 34rem;
+}

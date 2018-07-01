@@ -1,26 +1,15 @@
-# gatsby-starter-default
-The default Gatsby starter.
+# Hi and Welcome
+This is what makes up [tfaieta.com](tfaieta.com)
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
+## Installation
+If you want to run this site locally:
 
-## Install
+- `git clone`
+- Install the [Gatsby](https://www.gatsbyjs.org/) CLI: `npm i -g gatsby-cli`
+- Run `npm install`
+- Run `gatsby develop`
 
-Make sure that you have the Gatsby CLI program installed:
-```sh
-npm install --global gatsby-cli
-```
+To ship it out run `gatsby build` first.
 
-And run from your CLI:
-```sh
-gatsby new gatsby-example-site
-```
-
-Then you can run it by:
-```sh
-cd gatsby-example-site
-gatsby develop
-```
-
-## Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+Feel free to use it if you want as a template for your site. I will be writing a tutorial on how to use Firebase to host
+a site like this for free, once that is up I'll post it here. 
