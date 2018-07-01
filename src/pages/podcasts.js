@@ -1,9 +1,17 @@
 import React from 'react'
+import Helmet from "react-helmet";
 import PodcastList from '../components/PodcastList'
 import mdToHTML from '../utils/mdToHTML'
 
 export default function PodcastPage() {
     return <div className="mxl">
+        <Helmet
+            title="Podcasts"
+            meta={[
+                { name: "Favorite Podcasts", content: "Blog" },
+                { name: "Faieta", content: "Blog" }
+            ]}
+        />
         <h1>Podcasts</h1>
         {mdToHTML(`
 I would say I'm obsessed with podcasts and I get asked quite often which ones are my

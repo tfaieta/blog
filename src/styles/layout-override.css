@@ -6,7 +6,8 @@ html {
     height: 100%;
 }
 body {
-    height: 100%;
+    height: 300%;
+    width: 100%;
     border: 5px solid #3e4164;
 }
 h1 {

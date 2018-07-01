@@ -11,8 +11,8 @@ const TemplateWrapper = ({ children }) => (
     <Helmet
       title="Tony Faieta"
       meta={[
-        { name: "Tony Faieta", content: "Podcasts" },
-        { name: "Tony Faieta, tfaieta, Blog", content: "Podcasts" }
+        { name: "Tony Faieta", content: "Blog" },
+        { name: "Tony Faieta, tfaieta, faieta", content: "Blog" }
       ]}
     />
     <Header/>
