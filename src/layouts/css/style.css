@@ -1,7 +1,5 @@
 @charset "UTF-8";
 
-@import "vendor.code.css";
-
 @import "base.variables.css";
 @import "base.typography.css";
 @import "base.reset.css";
@@ -20,5 +18,5 @@
 @import "frontpage.css";
 
 @import "utilities.display.css";
-@import "utilities.spacing.css";
 @import "utilities.debug.css";
+@import "utilities.spacing.css";
