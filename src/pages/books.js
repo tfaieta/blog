@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 import '../layouts/index.css'
 import '../styles/layout-override.css';
 
-const Portfolio = () => (
+const Library = () => (
     <div>
         <Helmet
             title="Blog"
@@ -15,10 +15,10 @@ const Portfolio = () => (
     </div>
 );
 
-export default Portfolio
+export default Library
 
 export const query = graphql`
-  query portfolioQuery {
+  query libraryQuery {
     site {
       siteMetadata {
         title
