@@ -1,3 +1,5 @@
+@import "css/style.css";
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -26,6 +28,7 @@ progress,
 video {
   display: inline-block;
 }
+
 audio:not([controls]) {
   display: none;
   height: 0;
@@ -227,7 +230,7 @@ h1 {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  color: inherit;
+  color: #3e4164;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
@@ -302,6 +305,7 @@ h5 {
   text-rendering: optimizeLegibility;
   font-size: 0.85028rem;
   line-height: 1.1;
+  color: #3e4164;
 }
 h6 {
   margin-left: 0;
@@ -622,3 +626,5 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+
