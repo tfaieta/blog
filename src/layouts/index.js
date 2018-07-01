@@ -2,23 +2,20 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import Media from 'react-media'
-
-
 import Header from '../components/header'
-import Sidebar from '../components/sidebar'
 import './index.css'
 import '../styles/layout-override.css';
 
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Tiny Wins by Tony Faieta"
+      title="Tony Faieta"
       meta={[
-        { name: "description", content: "Sample" },
-        { name: "keywords", content: "sample, something" }
+        { name: "Tony Faieta", content: "Blog" },
+        { name: "Tony Faieta, tfaieta, faieta", content: "Blog" }
       ]}
     />
-    <Header />
+    <Header/>
     <div
       style={{
         margin: "0 auto",
@@ -60,16 +57,6 @@ const TemplateWrapper = ({ children }) => (
               <div style={{ flex: 2.5, paddingRight: "30px" }}>
                 {children()}
               </div>
-<div style={{ flex: 1 }}>
-                <Sidebar
-                  title="Tony Faieta"
-                  description="Articles about my tiny wins in design, development, and my life."
-                />
-                <Sidebar
-                  title="About author"
-                  description="Currently at Tess developing awesome podcasting software and applications. I like to design and code and I'm based out of Gainesville, FL. Feel free to tweet me @tfaieta if you like or dislike any of my content."
-                />
-              </div>
             </div>
           )
         }
@@ -80,7 +67,7 @@ const TemplateWrapper = ({ children }) => (
 
 TemplateWrapper.propTypes = {
   children: PropTypes.func,
-}
+};
 
 export default TemplateWrapper
 
@@ -92,4 +79,4 @@ export const query = graphql`
       }
     }
   }
-`
+`;

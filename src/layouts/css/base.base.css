@@ -1,0 +1,21 @@
+/*
+ * Base Styles
+ * ===========
+ *
+ * Base CSS styles for common HTML elements
+ *
+ */
+
+html {
+  background-color: #fff;
+  color: var(--text-color);
+  font-feature-settings: "calt", "liga", "hist", "onum", "pnum";
+  font: 100%/1.6 var(--serif);
+  hyphens: auto;
+}
+
+  @media (max-width: 30rem) {
+    html {
+      font-size: 87.5%;
+    }
+  }
