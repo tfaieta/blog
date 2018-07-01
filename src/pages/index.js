@@ -1,42 +1,17 @@
-import React from "react";
-import Link from "gatsby-link";
-import Helmet from "react-helmet";
-import '../styles/blog-listing.css';
+import React from "react"
+import mdToHTML from '../utils/mdToHTML'
 
-export default function Index({ data }) {
-  const { edges: posts } = data.allMarkdownRemark;
-  return (
-    <div className="blog-posts">
-      {posts
-        .filter(post => post.node.frontmatter.title.length > 0)
-        .map(({ node: post }) => {
-          return (
-            <div className="blog-post-preview" key={post.id}>
-              <h1>
-                <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
-              </h1>
-              <h2>{post.frontmatter.date}</h2>
-              <p>{post.excerpt}</p>
-            </div>
-          );
-        })}
+const IndexPage = () => {
+    return <div className="h1">
+      <div className="mega sans mxl">
+        Hi, I'm Tony. I like to design and build software that lets people learn complex skills and topics easier.
+      </div>
+        {mdToHTML(`
+Right now I am working on my startup called Tess, we're an all-in-one podcast solution for creators and we also made a really cool
+player for listeners. I'm also an undergrad CS student at the University of Florida. I like to have conversations with others, so feel free
+to tweet at me [@tfaieta](https://twitter.com/tfaieta).
+`)}
     </div>
-  );
-}
-export const pageQuery = graphql`
-  query IndexQuery {
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
-      edges {
-        node {
-          excerpt(pruneLength: 250)
-          id
-          frontmatter {
-            title
-            date(formatString: "MMMM DD, YYYY")
-            path
-          }
-        }
-      }
-    }
-  }
-`;
+};
+
+export default IndexPage

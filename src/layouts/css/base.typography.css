@@ -10,6 +10,7 @@
 
 .sans {
   font-family: var(--sans-serif);
+  color: #3e4164;
 }
 
 :not(.wf-loading) sup {
@@ -29,10 +30,12 @@ h2, .h2,
 h3, .h3 {
   font-weight: 400;
   hyphens: initial;
+  color: #3e4164;
 }
 
 h1, .h1 {
   font-size: 1.333rem;
+  color: #3e4164;
 }
 
 h2, .h2,

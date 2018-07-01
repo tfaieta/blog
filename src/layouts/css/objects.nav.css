@@ -9,11 +9,10 @@
   margin-bottom: -10px;
   padding-right: 10px;
 }
-
   .nav li {
     display: inline-block;
   }
 
   .nav li + li {
-    margin-left: calc( var(--baseline) / 2 );
+    margin-left: calc( var(--baseline) / 2);
   }
