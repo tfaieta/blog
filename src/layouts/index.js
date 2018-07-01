@@ -9,10 +9,10 @@ import '../styles/layout-override.css';
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Blog"
+      title="Tony Faieta"
       meta={[
-        { name: "description", content: "Sample" },
-        { name: "keywords", content: "sample, something" }
+        { name: "Tony Faieta", content: "Podcasts" },
+        { name: "Tony Faieta, tfaieta, Blog", content: "Podcasts" }
       ]}
     />
     <Header/>
