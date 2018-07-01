@@ -11,7 +11,6 @@ export default function Blog({ data }) {
                 title="Blog"
                 meta={[
                     { name: "Tony Faieta's Blog", content: "Blog" },
-                    { name: "Faieta", content: "Blog" }
                 ]}
             />
             <div className="blog-posts">
