@@ -8,7 +8,7 @@ const podcasts = [
         title: "Masters of Scale",
         author: "WaitWhat Media",
         cover: "https://content.production.cdn.art19.com/images/26/72/78/e3/267278e3-d103-42af-85f8-ab90ce316661/3156a418f4db34f8c868fc8f8ebed16712a6cca272361cdd5ce4faf54cb503b630594dc6b08a5b696b84af25dd6603e2fbec63fd7f45c9860f759bf466a68bbf.jpeg",
-        url: "http://mastersofscale.com/",
+        url: "https://mastersofscale.com/",
     },
     {
         title: "The Daily",
@@ -37,7 +37,7 @@ const podcasts = [
     {
         title: "The Colin and Samir Podcast",
         author: "Colin and Samir",
-        cover: "http://static.libsyn.com/p/assets/e/3/8/a/e38a6ba3e41fe214/COLSAM_pod_1440.jpg",
+        cover: "https://static.libsyn.com/p/assets/e/3/8/a/e38a6ba3e41fe214/COLSAM_pod_1440.jpg",
         url: "https://www.colinandsamir.com/the-podcast/",
     },
     {
