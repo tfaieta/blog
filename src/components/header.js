@@ -22,6 +22,10 @@ const links = [
     {
         to: "/books",
         label: "Library",
+    },
+    {
+        to: "/portfolio",
+        label: "Portfolio"
     }
 ];
 
@@ -40,7 +44,7 @@ const Header = ({siteTitle}) => (
           }}
       >
       <header className="site__header">
-          <h1 style={{margin: 0, paddingLeft: 10, textAlign: 'center', fontSize: '18px'}}>
+          <h1 style={{marginLeft: 20, paddingTop: 10, textAlign: 'center', fontSize: '18px'}}>
               <Link to="/" >
                   Tony Faieta
               </Link>
