@@ -58,6 +58,12 @@ const podcasts = [
         cover: "https://content.production.cdn.art19.com/images/c0/b4/fa/08/c0b4fa08-1788-45bc-9c85-36a64f9658a0/1ea263069b2cd2746b55460ac6ee2d25d3f4c9aecbc1e651439fb050d102b8bb4c82ee123f9d04286c43ac5cd18dabf5514405aedfbc5a7ac28612e65f379c76.jpeg",
         url: "https://open.spotify.com/show/1vPkGMyrKXdbYWHxSw9kd1",
     },
+    {
+        title: "Accidental Tech Podcast",
+        author: "Marco, John, and Casey",
+        cover: "http://static1.squarespace.com/static/513abd71e4b0fe58c655c105/t/52c45a37e4b0a77a5034aa84/1388599866232/1500w/Artwork.jpg",
+        url: "https://tessopen.page.link/listen?-LHoIcPnbuuY9rHyzZCh"
+    },
 ];
 
 const list = podcasts
