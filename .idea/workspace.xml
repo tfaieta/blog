@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fcda49c-0118-4b52-9826-3042bde5fb77" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,11 +17,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/7-29-2018-Android-Optimization-RN/index.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="941">
               <caret line="102" column="172" lean-forward="true" selection-start-line="102" selection-start-column="172" selection-end-line="102" selection-end-column="172" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package-lock.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="5441" column="23" lean-forward="false" selection-start-line="5441" selection-start-column="23" selection-end-line="5441" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -33,6 +43,7 @@
     <findStrings>
       <find>mark</find>
       <find>body</find>
+      <find>serve</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -96,6 +107,7 @@
         <option value="$PROJECT_DIR$/src/components/PodcastList.js" />
         <option value="$PROJECT_DIR$/src/components/BookList.js" />
         <option value="$PROJECT_DIR$/src/pages/7-29-2018-Android-Optimization-RN/index.md" />
+        <option value="$PROJECT_DIR$/package-lock.json" />
       </list>
     </option>
   </component>
@@ -318,18 +330,18 @@
       <workItem from="1531530403851" duration="653000" />
       <workItem from="1531750486911" duration="13000" />
       <workItem from="1532137861976" duration="1546000" />
-      <workItem from="1532907302335" duration="1486000" />
+      <workItem from="1532907302335" duration="1661000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32560000" />
+    <option name="totallyTimeSpent" value="32735000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16271722" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16271722" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -362,13 +374,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gatsby-config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/blog/First-Post.md" />
     <entry file="file://$PROJECT_DIR$/src/blog/fav-pods.md" />
     <entry file="file://$PROJECT_DIR$/src/templates/blog-post.js">
@@ -684,6 +689,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="941">
           <caret line="102" column="172" lean-forward="true" selection-start-line="102" selection-start-column="172" selection-end-line="102" selection-end-column="172" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="5441" column="23" lean-forward="false" selection-start-line="5441" selection-start-column="23" selection-end-line="5441" selection-end-column="23" />
           <folding />
         </state>
       </provider>
