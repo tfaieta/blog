@@ -1,7 +1,7 @@
 ---
 path: "/android-opt-rn"
 date: "2018-07-28T12:12:33.962Z"
-title: "Android Optimization in React Native"
+title: "Optimizing Android for RN"
 ---
 
 I know, I know, you shipped your app and it was lovely on iPhone but a complete mess on Android. The same thing happened to us, when we launched our [podcasting](https://play.google.com/store/apps/details?id=com.tess) [app](https://itunes.apple.com/us/app/tess-podcast-app/id1409521849?ls=1&mt=8). So we scoured the internet, performance docs, and ultimately made Tess work much smoother across Android devices. This is not an intensive look, but it’s what we did that worked and hopefully can help you too.
