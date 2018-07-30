@@ -14,34 +14,34 @@ Not only does doing this help you with debugging/seeing production builds but by
 <br>
 <br>
 Now, let’s talk about some Android optimization in React Native!
-<br><br>
+<br>
 
 ##### Using console.log statements:
-
 Having any active console.log statements in your production build will significantly impacts the performance of the build. This is stated in the [Performance](https://facebook.github.io/react-native/docs/performance) section of the React Native documentation. There is a quick fix that is pointed out in the documentation that uses `babel-plugin-transform-remove-console` that automatically takes out all console statements on production builds like so:
 <br>
 <br>
 In:
-
-    console.log("foo");console.error("bar");
-
+<br><br>
+<code>console.log("foo");console.error("bar");</code>
+<br><br>
 Out:
+<br><br>
+<code>null</code>
 
-    ''
-
-<br>
 <br>
 To add this babel script to your project simply install it with:
 <br>
 <br>
 
-    npm i babel-plugin-transform-remove-console --save-dev
+<code>npm i babel-plugin-transform-remove-console --save-dev</code>
 
+<br>
 Then edit your .babelrc file:
-
-    { "env": 	{ "production": 		{ "plugins": ["transform-remove-console"] } 	}}
+<br><br>
+<code>{ "env": 	{ "production": 		{ "plugins": ["transform-remove-console"] } 	}}</code>
 <br><br>
 
+<br><br>
 ##### Using ListView instead of FlatList or SectionList
 
 ListView has now been deprecated and we had heard that many of the problems and slowness coming was from using ListView for large lists. Again this is something straight out of the performance documentation.
@@ -70,11 +70,12 @@ When running through our assets for the mobile app, we removed 52% of the overal
 ##### Reduce GPU Overdraw
 
 The Android documentation states that GPU overdraw is:
-
->       An app may draw the same pixel more than once within a single frame, an event called overdraw. Overdraw is usually
->       unnecessary, and best eliminated. It manifests itself as a performance problem by wasting GPU time
->       to render pixels that don’t contribute to what the user sees on the screen.
-
+<br><br>
+An app may draw the same pixel more than once within a single frame, an event called overdraw. Overdraw is usually
+unnecessary, and best eliminated. It manifests itself as a performance problem by wasting GPU time
+to render pixels that don’t contribute to what the user sees on the screen.
+<br>
+<br>
 You can check your overdraw by:
 <br>
 1.  On your simulator or physical device, go to **Settings** and tap **Developer Options**.
@@ -90,8 +91,8 @@ Don’t worry if you see everything red, this is okay if you’ve never looked a
 - Using FlatList and SectionList!
 
 Note: remember search and replace with git and sed!
-
-    git grep -l 'original' | xargs sed -i -e 's/original/replace_with_this/g'
+<br><br>
+<code>git grep -l 'original' | xargs sed -i -e 's/original/replace_with_this/g'</code>
 <br><br>
 ##### Resources
 
