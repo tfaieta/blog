@@ -10,7 +10,7 @@ I know, I know, you shipped your app and it was lovely on iPhone but a complete 
 First off, as we learned, there’s always going to be a difference between your simulator and the phone that your friend has. So, some of the best advice I can give you if nobody on your team has an Android is to go ahead and purchase some cheap phones from Facebook marketplace/phone reseller stores to physically test your production builds.
 <br>
 <br>
-Not only does doing this help you with debugging/seeing production builds but by playing around with not only your app but other Android app, you get to see many of the things that are natural to Android users that people in a Apple ecosystem simply don’t see. So I encourage you to not only use the phone to test your app but try to build some knowledge of the Android UX.
+Not only does doing this help you with debugging/seeing production builds but by playing around with not only your app but other Android apps, you get to see many of the things that are natural to Android users that people in a Apple ecosystem simply don’t see. So I encourage you to not only use the phone to test your app but try to build some knowledge of the Android UX.
 <br>
 <br>
 Now, let’s talk about some Android optimization in React Native!
