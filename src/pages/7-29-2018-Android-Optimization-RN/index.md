@@ -58,8 +58,9 @@ Honestly this is much more important than you might think. Here’s a [blog post
 ##### Run all static images through an optimizer
 
 Image optimizers remove metadata from your image files without losing pixel quality. There are many out there but the one we used was [ImageOptim](https://imageoptim.com/mac), it’s free and [open source](https://github.com/ImageOptim/ImageOptim). Just to give an example of how much data you can take away from your overall static assets, I put all of our static assets from our [website](http://tess.fm/) through ImageOptim and this was the result:
+<br><br>
 
-![](https://www.notion.so/0300a1f176654316b7ba5947011b80f3#8f552222086f4b0ca965bea853b3d372)
+![imageoptim](https://raw.githubusercontent.com/tfaieta/tfaieta.com/develop/src/img/imgOptim.png)
 
 <br>
 <br>
