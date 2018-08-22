@@ -6,9 +6,8 @@ html {
     height: 100%;
 }
 body {
-    height: 300%;
+    height: 100%;
     width: 100%;
-    border: 5px solid #3e4164;
 }
 h1 {
     font-size: 1.5rem;
