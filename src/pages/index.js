@@ -4,7 +4,7 @@ import mdToHTML from '../utils/mdToHTML'
 
 const IndexPage = () => {
     return (
-      <div className="center">
+      <div>
           <Helmet
               title="Tony Faieta"
               meta={[
@@ -12,8 +12,9 @@ const IndexPage = () => {
                   { name: "Faieta", content: "Index" }
               ]}
           />
+
           <div className="h1">
-          <div className="mega sans mxl">
+          <div className="mega sans mxl center">
 Hi, I'm Tony. I like to design and build software that helps people create interesting and helpful content.
           </div>
             {mdToHTML(`
