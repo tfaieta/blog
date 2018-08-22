@@ -4,7 +4,7 @@ import mdToHTML from '../utils/mdToHTML'
 
 const IndexPage = () => {
     return (
-      <div>
+      <div className="center">
           <Helmet
               title="Tony Faieta"
               meta={[
