@@ -53,6 +53,19 @@ const books = [
     cover: "https://images-na.ssl-images-amazon.com/images/I/514ZYLCzJ8L._SX336_BO1,204,203,200_.jpg",
     url: "https://www.amazon.com/Barbarian-Days-Surfing-William-Finnegan/dp/1594203474/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1530414728&sr=1-1",
   },
+  {
+    title: "Shoe Dog: A Memoir by the Creator of Nike",
+    author: "Phil Knight",
+    cover: "https://images-na.ssl-images-amazon.com/images/I/41k%2BWVPLwZL.jpg",
+    url: "https://www.amazon.com/dp/B0176M1A44/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1",
+  },
+  {
+    title: "Originals: How Non-Conformists Move the World",
+    author: "Adam Grant",
+    cover: "https://images-na.ssl-images-amazon.com/images/I/51hZTkTdS5L.jpg",
+    url: "https://www.amazon.com/Originals-How-Non-Conformists-Move-World-ebook/dp/B00XIYGCDO",
+  },
+  
 ];
 
 const list = books
