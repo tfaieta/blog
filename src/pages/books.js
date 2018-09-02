@@ -4,6 +4,7 @@ import BookList from '../components/BookList'
 import mdToHTML from '../utils/mdToHTML'
 
 export default function LibraryPage() {
+    
     return <div className="mxl">
         <Helmet
             title="Books"
@@ -18,5 +19,6 @@ A collection of my favorite books.
     `)}
 
         <BookList />
+        
     </div>
 }
