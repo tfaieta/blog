@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     url: 'https://lumen.netlify.com',
-    title: 'Blog by John Doe',
-    subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    title: 'Tony Faieta',
+    subtitle: 'Full Stack Developer at Grifin, maker of Tess and DarkPDF, and student at the University of Florida.',
     copyright: '© All rights reserved.',
     disqusShortname: '',
     menu: [
@@ -15,12 +15,16 @@ module.exports = {
         path: '/about/'
       },
       {
+        label: 'Portfolio',
+        path: '/portfolio/'
+      },
+      {
         label: 'Contact me',
         path: '/contact/'
       }
     ],
     author: {
-      name: 'John Doe',
+      name: 'Tony Faieta',
       email: '#',
       telegram: '#',
       twitter: '#',
