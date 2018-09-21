@@ -4,10 +4,6 @@ layout: page
 path: "/about"
 ---
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
+Hi, I'm Tony. I like to design and build software that helps people create interesting and helpful content.
 
-![Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.](./1.jpg)
-
-*Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.*
-
-Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+Right now I am working on a podcasting platform called [Tess](https://tess.fm/), we're an all-in-one podcast solution for creators and we also made a really cool player for listeners. You can download Tess for iOS [here](https://itunes.apple.com/us/app/tess-podcast-app/id1409521849?ls=1&mt=8) and for Android [here](https://play.google.com/store/apps/details?id=com.tess). I'm also an undergrad CS student at the University of Florida where I like to have conversations with others and write about the things that make me happy or about topics that are important to me. If you want to have a conversation feel free to tweet at me [@tfaieta](https://twitter.com/tfaieta).
