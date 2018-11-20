@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     url: 'https://lumen.netlify.com',
     title: 'Tony Faieta',
-    subtitle: 'Full Stack Developer at Grifin, maker of Tess and DarkPDF, and student at the University of Florida.',
+    subtitle: 'Software development intern at SharpSpring, maker of Tess and DarkPDF, and student at the University of Florida.',
     copyright: '© All rights reserved.',
     disqusShortname: '',
     menu: [
