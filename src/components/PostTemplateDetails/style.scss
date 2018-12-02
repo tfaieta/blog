@@ -52,11 +52,12 @@
     }
     &__footer {
         max-width: $layout-post-single-width;
-        margin-left: 15px;
-        margin-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
         @include line-height(1);
         @include margin-top(1);
-        @include margin-bottom(2);
+        @include margin-bottom(0);
         &-text {
             & a {
                 text-decoration: underline;
