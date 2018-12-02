@@ -1,7 +1,7 @@
 {
-  "version": "2.0.2",
-  "name": "gatsby-starter-lumen",
-  "description": "Simple starter for Gatsby",
+  "version": "1.0.2",
+  "name": "tfaieta.com",
+  "description": "",
   "main": "n/a",
   "scripts": {
     "develop": "gatsby develop",

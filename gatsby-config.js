@@ -31,6 +31,9 @@ module.exports = {
       github: '#',
       rss: '#',
       vk: '#'
+    },
+    heyStranger: {
+      name: 'I see you in my queries'
     }
   },
   plugins: [
