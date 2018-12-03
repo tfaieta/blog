@@ -39,7 +39,7 @@ With this Bryan Nelson was able to have a favorable lead against his opponent, t
 
 >[Nelson, who had his home annexed into Orange County’s second-biggest city to run for mayor, earned his win by attacking Kilsheimer’s $150,000 salary and his refusal to scrap red-light cameras, which he called a “money grab.” He won handily with 63 percent of the vote.](https://www.orlandosentinel.com/news/orange/os-apopka-winter-park-mayor-election-20180313-story.html)
 
-Relevant information:
+Change of mind:
 
 ![NelsonCOM.png](https://github.com/tfaieta/tfaieta.com/raw/develop/src/assets/images/nelsonCOM.png)
 
