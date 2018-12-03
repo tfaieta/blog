@@ -21,7 +21,6 @@ description: "For the past couple of elections, I have spent some time reading a
 
 **I argue that campaigns that use these tactics receive much higher engagements than those who do not, but that these practices can be extremely effective at catching key platform issues, hence the term 'platform-as-a-service' coined from the software-as-a-service term.**
 
-
 ## **Case Study**
 
 Locally, a startup in Gainesville named CharlotteAI, created a technology that uses artificial intelligence to create high engagement Facebook ads at the lowest price. One of the ways that they sell that technology is by consulting with political campaigns to discover issues that are commonly talked about on Facebook in a certain area. Through their service, they are able to identify issues that resonate deeply with constituents and deliver that as a platform to a political campaign. 
@@ -36,18 +35,15 @@ After this, CharlotteAI then does another scan of the data in order to gain more
 
 ![NelsonEngagement.png](https://github.com/tfaieta/tfaieta.com/raw/develop/src/assets/images/nelsonEngagement.png)
 
-With this Bryan Nelson was able to have a favorable lead againTODO
+With this Bryan Nelson was able to have a favorable lead against his opponent, the red light camera campaign was only one of three campaigns that CharlotteAI offered Nelson's campaign, but I did not receive access to the rest of the or was given much more information.
 
+>[Nelson, who had his home annexed into Orange County’s second-biggest city to run for mayor, earned his win by attacking Kilsheimer’s $150,000 salary and his refusal to scrap red-light cameras, which he called a “money grab.” He won handily with 63 percent of the vote.](https://www.orlandosentinel.com/news/orange/os-apopka-winter-park-mayor-election-20180313-story.html) 
 
 ## **How does it work under the hood?**
 
+CharlotteAI's artificial technology 
 
 
-
-
-## **Further Data**
-
-
-## **Opinions**
+## **Opinions and Takeaways** 
 
 Put the image [here](http://orlando-rising.com/bryan-nelsons-face-red-light-cameras/)
