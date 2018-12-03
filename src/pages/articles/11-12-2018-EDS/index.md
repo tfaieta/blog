@@ -28,7 +28,11 @@ Locally, a startup in Gainesville named CharlotteAI, created a technology that u
 
 Their latest client was the recently elected mayor of Apopka, Bryan Nelson. Through getting in contact with CharlotteAI I was able to receive the data set that was used to identify the most talked about issues in the population segment that they used to help with Nelson's campaign. Nelson's staff had original given them a list of possible terms that they might want to test as main points that their campaign wanted to drive home, I was not given this list but was told that none of the terms given to CharlotteAI were in the top trends. 
 
-Below is a bar graph that shows popular repeating trends according to the data by the amount of time they:
+Below is a bar graph that shows popular repeating trends according to the data by the amount of times they popped up in the data set:
+
+![Nelson.png](https://github.com/tfaieta/tfaieta.com/raw/develop/src/assets/images/nelson.png)
+
+After this, CharlotteAI then does another scan of the data in order to gain more insight on the popular words to classify them into having negative (against) or positive (for) connotation trends in order to present those as possible ad campaigns and platform items. Going further into this case study, the technology was able to clearly identify that the red light traffic cameras was something that many people in the area had a real distaste for. CharlotteAI ran with that and this is a graph that shows the results of engagement: 
 
 
 
