@@ -15,11 +15,11 @@ description: "For the past couple of elections, I have spent some time reading a
 ![Robot.jpg](https://github.com/tfaieta/tfaieta.com/raw/develop/src/assets/images/robot.jpeg)
 
 # **Introduction**
-**This is a draft of a final project for an Election Data Science class I took my junior year at the University of Florida, this class was taught by [Michael McDonald](https://twitter.com/ElectProject).**
+**This is a draft of a final project for an Election Data Science class that I took my junior year at the University of Florida, this class was taught by [Michael McDonald](https://twitter.com/ElectProject).**
 
 **For the past couple of elections, I have spent some time reading about how social media has played a role in our elections and more specifically how it's helping or hurting political campaigns. Through my research, I have found some rather alarming ways that political campaigns are using artificial intelligence, and how some companies are offering platform-as-a-service software to political campaigns.**
 
-**I argue that campaigns that use these tactics receive much higher engagements than those who do not, but that these practices can be extremely effective at catching key platform issues, hence the term 'platform-as-a-service' coined from the software-as-a-service term.**
+**I argue that campaigns that use these tactics receive much higher engagements than those who do not and that these practices can be extremely effective at catching key platform issues, hence the term 'platform-as-a-service' coined from the software-as-a-service term.**
 
 ## **Case Study**
 
