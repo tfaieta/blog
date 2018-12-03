@@ -3,7 +3,7 @@ path: "/eds"
 date: "2018-11-15T12:12:33.962Z"
 title: "The future of all political campaigns; a deeper look into Artificial Intelligence, bots, and the rise of platform-as-a-service."
 layout: post
-draft: false
+draft: true
 category: "Projects"
 tags:
   - "Projects"
@@ -35,15 +35,35 @@ After this, CharlotteAI then does another scan of the data in order to gain more
 
 ![NelsonEngagement.png](https://github.com/tfaieta/tfaieta.com/raw/develop/src/assets/images/nelsonEngagement.png)
 
-With this Bryan Nelson was able to have a favorable lead against his opponent, the red light camera campaign was only one of three campaigns that CharlotteAI offered Nelson's campaign, but I did not receive access to the rest of the or was given much more information.
+With this Bryan Nelson was able to have a favorable lead against his opponent, the red light camera campaign was only one of three campaigns that CharlotteAI offered Nelson's campaign, but I did not receive access to the rest of the data or was given much more information.
 
 >[Nelson, who had his home annexed into Orange County’s second-biggest city to run for mayor, earned his win by attacking Kilsheimer’s $150,000 salary and his refusal to scrap red-light cameras, which he called a “money grab.” He won handily with 63 percent of the vote.](https://www.orlandosentinel.com/news/orange/os-apopka-winter-park-mayor-election-20180313-story.html) 
 
 ## **How does it work under the hood?**
 
-CharlotteAI's artificial technology 
+CharlotteAI's artificial intelligence technology is one of many companies that offer a similar service, and specifically only target Facebook data in order to do much of their work. However, there are many other services that offer similar types of "platform-as-a-service" technologies, curious enough, I wanted to understand how many of these services worked and possibly be able to recreate the effects in a small case study.
+
+First, it is important to note the popular trends of these technologies and how they are being used by political campaigns. 
+1. In order to create profiles of voters
+2. To target, measure and improve campaigns using big data
+3. To automatically generate content 
+
+### **Creating Profiles of Voters**
+Political parties have a history of using tactics in order to encourage constituents to vote for a specific candidate. The growth of large data sets and the ability to integrate those large data sets with psychological profiles of people have given the ability to predict personality types, emotional states, and trends according to that in order to aid in persuasion of those people. 
+
+### **Target, measure, improve**
+Including the ability to target voters better, these technologies are used to monitor and improve performance of political campaigns. In the commercial sector, a popular methodology for testing, called  A/B testing, which helps companies understand what messaging results in higher click engagement rates and more conversions (i.e. message A or message B) is common. This method is used in a loop, constantly improving and targeting messages more effectively throughout the span of a marketing campaign. Improvements in audience segmentation and cross device targeting mean that specific messages can be tested with specific audiences. The problem of finding messages that are effective and resonate with potential voters has been common to political campaigns for a long time, but previously used to involve static and comprehensive ‘focus group’ testing of a narrow range of messages, each vetted and signed off by senior politicians. The use of social media and commercial advertising techniques has brought to this endeavour a step change in pace and scale. Moore and Tambini describe a ‘dynamic’ process where ‘messages are selected on the basis of their resonance rather than ideological or political selection.’ Tools such as Facebook’s Dynamic Creative, using a set of predefined design features of an advert, can already construct thousands of variations of an advert, present them to users, then find the optimal scombinations based on engagement metrics. This is the type of feature that Brad Parscale, Trump’s digital campaign manager, spoke about in a CBS 60 Minutes interview where he claims that his team tested 50,000 to 60,000 ad variations a day.
+
+### **Automatically Generate Content**
+One of the most important developments in AI in recent years is the ability to generate content automatically, which raises the possibility of campaigns using programmatically created messaging, developed specifically to convince target audiences. In perhaps the most obvious use case, Natural Language Generation tools could be used alongside algorithmic targeting in order to automatically generate content for unique users based on insight about their interests and concerns. In this case, instead of finding an optimal combination of design features through measuring engagement in the field, a system could use trending
+topics, personal data, and an understanding of the interaction between these to generate bespoke and nuanced advertising content. Such campaigns could combine the interactive element of chatbots with
+personal data to serve adverts that incorporate a back-and-forth interaction, potentially referencing previous interactions or stated concerns with new generated pieces of content. Taken to its logical conclusion, this could lead to a stream of unique, personalised messages targeted at each voter constantly updated based on A/B testing.  This technology can already been applied in the in the use of commercial chatbots, occasionally acting as pseudo-shopping assistants, or surreptitiously pretending to be humans on social media. As conversational technology improves, particularly in verbal machine-tohuman communication, talking with a chatbot will feel more natural, and become more personalised. This familiarity could help chatbots find a niche in political communications, employed by campaigns as a 24/7 helpline for policy questions or as a dynamic cheatsheet to help provide quick and informative answers during canvassing. A current example of this can be found in the nonpartisan chatbot HelloVote, which was used in the 2016 US presidential election. It assisted eligible voters to register to vote, checked whether they had registered, and helped them gain the ID required in their state. Users could communicate through text and the HelloVote system either directly filled out online voter registration forms or sent pre-filled forms to the users to submit.
+
+## **Concerns with these trends**
 
 
 ## **Opinions and Takeaways** 
+
+As I see it, there are two main concerns with the rise of these specific trends. One, politicians and campaigns may be easily 
 
 Put the image [here](http://orlando-rising.com/bryan-nelsons-face-red-light-cameras/)
