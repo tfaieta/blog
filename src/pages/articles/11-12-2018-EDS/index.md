@@ -28,7 +28,8 @@ Locally, a startup in Gainesville named CharlotteAI, created a technology that u
 
 Their latest client was the recently elected mayor of Apopka, Bryan Nelson. Through getting in contact with CharlotteAI I was able to receive the data set that was used to identify the most talked about issues in the population segment that they used to help with Nelson's campaign. Nelson's staff had original given them a list of possible terms that they might want to test as main points that their campaign wanted to drive home, I was not given this list but was told that none of the terms given to CharlotteAI were in the top trends. 
 
-Below is a graph of those:
+Below is a bar graph that shows popular repeating trends according to the data by the amount of time they:
+
 
 
 ## **How does it work under the hood?**
