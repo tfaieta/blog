@@ -62,7 +62,7 @@ Including the ability to target voters better, these technologies are used to mo
 ### **Automatically Generate Content**
 Another important development in artificial intelligence in recent years is the ability to generate content automatically, which raises the possibility of campaigns using programmatically created messaging, developed specifically to convince target audiences sometimes known as bots. In perhaps the most obvious use case, Natural Language Processing tools could be used alongside algorithmic targeting in order to automatically generate content for unique users based on insight about their interests and concerns. In this case, instead of finding an optimal combination of design features through measuring engagement in the field, a system could use trending topics, personal data, and an understanding of the interaction between these to generate bespoke and nuanced advertising content. Such campaigns could combine the interactive element of chat bots with personal data to serve adverts that incorporate a back-and-forth interaction, potentially referencing previous interactions or stated concerns with new generated pieces of content. In conclusion, this could lead to a stream of unique, personalized messages targeted at each voter constantly updated based on A/B testing.  This technology has already been applied in the in the use of commercial chat bots, occasionally acting as shopping assistants, or pretending to be humans on social media. As conversational technology improves, particularly in verbal machine-to human communication talking with a chat bot will feel more natural, and become more personalized. 
 
-## **Bot Replication**
+## **GatorBot Replication**
 
 Much of this data is hard to show without a test case, so my goal is to replicate the scale of each of these trends in order to map out the ability that the trends previously mentioned in order to truly illustrate the power that some of these technologies have.
 
@@ -79,4 +79,3 @@ Issues that I'm currently dealing with:
 * Properly scraping the data from Facebook groups using a fork of [FacebookBot](https://github.com/hikaruAi/FacebookBot)
 * Injecting scripts in order to automatically generate the content
 * Not finding enough data to make any sort of dent
-
