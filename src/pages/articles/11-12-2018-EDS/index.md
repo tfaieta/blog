@@ -36,6 +36,8 @@ After this, CharlotteAI then does another scan of the data in order to gain more
 
 ![NelsonEngagement.png](https://github.com/tfaieta/tfaieta.com/raw/develop/src/assets/images/nelsonEngagement.png)
 
+With this Bryan Nelson was able to have a favorable lead againTODO
+
 
 ## **How does it work under the hood?**
 
