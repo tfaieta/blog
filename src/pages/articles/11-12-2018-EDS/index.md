@@ -35,9 +35,14 @@ After this, CharlotteAI then does another scan of the data in order to gain more
 
 ![NelsonEngagement.png](https://github.com/tfaieta/tfaieta.com/raw/develop/src/assets/images/nelsonEngagement.png)
 
-With this Bryan Nelson was able to have a favorable lead against his opponent, the red light camera campaign was only one of three campaigns that CharlotteAI offered Nelson's campaign, but I did not receive access to the rest of the data or was given much more information.
+With this Bryan Nelson was able to have a favorable lead against his opponent, the red light camera campaign was only one of three advertisement campaigns that CharlotteAI offered Nelson's campaign, but I did not receive access to the rest of the data or was given much more information. Nelson had a history of being for red light cameras but vowed to take down every red light camera if elected. 
 
 >[Nelson, who had his home annexed into Orange County’s second-biggest city to run for mayor, earned his win by attacking Kilsheimer’s $150,000 salary and his refusal to scrap red-light cameras, which he called a “money grab.” He won handily with 63 percent of the vote.](https://www.orlandosentinel.com/news/orange/os-apopka-winter-park-mayor-election-20180313-story.html)
+
+Relevant information:
+
+![NelsonCOM.png](https://github.com/tfaieta/tfaieta.com/raw/develop/src/assets/images/nelsonCOM.png)
+
 
 ## **How does it work under the hood?**
 
