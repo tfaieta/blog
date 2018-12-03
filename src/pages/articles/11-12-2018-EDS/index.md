@@ -29,7 +29,7 @@ Their latest client was the recently elected mayor of Apopka, Bryan Nelson. Thro
 
 Below is a bar graph that shows popular repeating trends according to the data by the amount of times they popped up in the data set:
 
-![Nelson.png](https://github.com/tfaieta/tfaieta.com/raw/develop/src/assets/images/nelsonTrends.png)
+![Nelson.png](https://github.com/tfaieta/tfaieta.com/raw/develop/src/assets/images/nelsonWTrends.png)
 
 After this, CharlotteAI then does another scan of the data in order to gain more insight on the popular words to classify them into having negative (against) or positive (for) connotation trends in order to present those as possible ad campaigns and platform items. Going further into this case study, the technology was able to clearly identify that the red light traffic cameras was something that many people in the area had a real distaste for. CharlotteAI ran with that and created an ad campaign that pushed for the abolishment of red light traffic cameras as a key issue on Bryan Nelson's platform, this is a graph that shows the results of engagement: 
 
