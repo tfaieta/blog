@@ -12,7 +12,7 @@ tags:
 description: "It’ll be not too long before my company's app, [Tess](http://tess.fm), launches. I started Tess a little bit over a year ago with my friend Nick Ruspantini because we wanted to make an app that let anyone record a podcast straight from their phone. We've learned much on the way."
 ---
 &nbsp
-![alt text](https://github.com/tfaieta/tfaieta.com/blob/version-control/src/img/startup.PNG?raw=true)
+![alt text](https://cdn-images-1.medium.com/max/1600/1*sxi1tCWJ4n3zgnd-ZgGRvQ@2x.jpeg)
 It’ll be not too long before my company's app, [Tess](http://tess.fm), launches. I started Tess a little bit over a year ago with my friend Nick Ruspantini because we wanted to make an app that let anyone record a podcast straight from their phone. Tess has evolved to become something more than just an app where people can make podcasts, we've spent the last few months making a really cool podcast player so listeners can enjoy the app as well.
 Through this journey, we've learned a lot about ourselves, added another co-founder to help out with the non-technical side of the company, gathered some money from pitch competitions and grants, written so much code, and have stressed our love of working on Tess out of our systems, why? Because startup culture continuously gnaws at you with hype, pressure, stress, competition, and anxiety.
 <br>

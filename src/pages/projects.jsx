@@ -2,6 +2,7 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import Post from '../components/Post';
 import Sidebar from '../components/Sidebar';
+import Project from '../components/Project';
 
 class Projects extends React.Component {
   render() {
@@ -19,11 +20,7 @@ class Projects extends React.Component {
           <meta name="description" content={subtitle} />
         </Helmet>
         <Sidebar {...this.props} />
-        <div className="content">
-          <div className="content__inner">
-            {items}
-          </div>
-        </div>
+        <Project/>
       </div>
     );
   }
