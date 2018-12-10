@@ -1,7 +1,7 @@
 ---
 title: "Projects"
 layout: page
-path: "/projects"
+path: "/mdProjects"
 ---
 #[DarkPDF](https://darkpdf.com)
 An open-source, dark mode PDF viewer for MacOS and the Web.
