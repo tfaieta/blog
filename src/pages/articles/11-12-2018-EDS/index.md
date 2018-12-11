@@ -3,7 +3,7 @@ path: "/eds"
 date: "2018-11-30T12:12:33.962Z"
 title: "The future of all political campaigns; a deeper look into Artificial Intelligence, bots, and the rise of platform-as-a-service."
 layout: post
-draft: true
+draft: false
 category: "Projects"
 tags:
   - "Projects"
@@ -64,18 +64,18 @@ Another important development in artificial intelligence in recent years is the 
 
 ## **GatorBot Replication**
 
-Much of this data is hard to show without a test case, so my goal is to replicate the scale of each of these trends in order to map out the ability that the trends previously mentioned in order to truly illustrate the power that some of these technologies have.
+Much of this data is hard to show without a test case, so my goal was to replicate the scale of each of these trends in order to map out the ability that the trends previously mentioned in order to truly illustrate the power that some of these technologies have. Sadly, this implementation failed before the deadline of this project, but is on my list of to-do's to finish for this upcoming holiday break. Below is a snapshot and further details of the issues that I dealt with and my analysis. Also, you can find all the code used for the bot, [here](https://github.com/tfaieta/GatorBot).
 
 ### The Implementation
 
-Using the [Bot Framework](https://dev.botframework.com) and [TensorFlow](https://github.com/tensorflow/tensorflow) I wanted to create a bot that is able to scrape Facebook data in order to see if I am able to create topics that would be able to create topics that are popular among UF students, in order to create a "platform" based off the popular topics it returned.
+Using the [Bot Framework](https://dev.botframework.com) and [TensorFlow](https://github.com/tensorflow/tensorflow) I wanted to create a bot that is able to scrape Facebook data in order to see if I am able to create topics that would be able to create topics that are popular among UF students, in order to create a "platform" based off the popular topics it returned. The problem for a while was that I was not able to correctly scrape the data or build the functionality of the bot. I ran into accessibility issues many times. 
 
 ### Goals for this project
 
-The goal is to fully illustrate the power of artificial intelligence can have in increasing engagement on a smaller scale. Hopefully, this can bring up a multitude of conversation and can aid to the importance of being able to comprehend these tactics as voters.
+The goal is to fully illustrate the power of artificial intelligence can have in increasing engagement on a smaller scale. Hopefully, this can bring up a multitude of conversation and can aid to the importance of being able to comprehend these tactics as voters. The goal is to keep working on it as time goes on and open source all the technology.
 
 ### Issues
-Issues that I'm currently dealing with:
-* Properly scraping the data from Facebook groups using a fork of [FacebookBot](https://github.com/hikaruAi/FacebookBot)
+Issues that I'm currently dealing with in this ongoing project:
+* Properly scraping the data from Facebook groups using the bpt
 * Injecting scripts in order to automatically generate the content
 * Not finding enough data to make any sort of dent

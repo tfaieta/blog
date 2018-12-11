@@ -7,9 +7,9 @@ class Project extends React.Component {
     return (
       <div className="project"> 
         <div className="project__meta">
-            <div className="project__card">
-
-            </div>
+            {/* <div className="project__card"> */}
+            <h1>Currently Under Development</h1>
+            {/* </div> */}
         </div>
       </div>
     );
