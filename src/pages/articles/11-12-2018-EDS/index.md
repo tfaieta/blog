@@ -3,7 +3,7 @@ path: "/eds"
 date: "2018-11-30T12:12:33.962Z"
 title: "The future of all political campaigns; a deeper look into Artificial Intelligence, bots, and the rise of platform-as-a-service."
 layout: post
-draft: false
+draft: true
 category: "Projects"
 tags:
   - "Projects"
