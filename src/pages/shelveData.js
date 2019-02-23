@@ -7,7 +7,7 @@ export const shelves = [
   },
   {
     text: 'You can check out my: ',
-    book: [
+    books: [
       {
         description: 'Bio',
       },
@@ -24,7 +24,7 @@ export const shelves = [
   },
   {
     text: 'Some of my favorite: ',
-    book: [
+    books: [
       {
         description: 'Blogs',
       },
@@ -39,7 +39,7 @@ export const shelves = [
   {
     text: 'I also write here:',
     latest: '',
-    book: [
+    books: [
       {
         description: '2019',
       },
