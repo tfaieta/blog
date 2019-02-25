@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import { shelves } from './shelveData'
 import '../styles/styles.css'
 import Book from '../components/Book/book'
+import AboutMeBooks from '../components/AboutMeBooks/AboutMeBooks'
 
 class BlogIndex extends React.Component {
   render() {
@@ -12,11 +13,9 @@ class BlogIndex extends React.Component {
           <BookShelf>
             <Text key={index}>{shelf.text}</Text>
             {shelf.books ? (
-              <Books>
-                <Book gradientOne="#F38141" gradientTwo="#FF89B9" />
-                <Book gradientOne="#3e4164" gradientTwo="#3e4164" />
-                <Book gradientOne="#F38141" gradientTwo="#FF89B9" />
-              </Books>
+              <AboutMeBooksWrapper>
+                <AboutMeBooks />
+              </AboutMeBooksWrapper>
             ) : (
               <div />
             )}
@@ -48,9 +47,8 @@ const BookShelf = styled.div`
   background: #faf8ea;
 `
 
-const Books = styled.div`
-  margin: -127px 0px 0px 0px;
-  z-index: 100;
+const AboutMeBooksWrapper = styled.div`
+  margin: -128px 0px 0px -140px;
 `
 
 const Text = styled.p`
