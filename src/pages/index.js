@@ -6,7 +6,7 @@ import Book from '../components/Book/book'
 import AboutMeBooks from '../components/AboutMeBooks/AboutMeBooks'
 import RecommendationBooks from '../components/RecommendationBooks/RecommendationBooks'
 import BlogBooks from '../components/BlogBooks/BlogBooks'
-
+import LatestBlogPost from '../components/LatestBlogPost/LatestBlogPost'
 class BlogIndex extends React.Component {
   render() {
     return (
@@ -30,6 +30,7 @@ class BlogIndex extends React.Component {
             )}
             {shelf.blog ? (
               <BlogBooksWrapper>
+                <LatestBlogPost />
                 <BlogBooks />
               </BlogBooksWrapper>
             ) : (
@@ -71,7 +72,7 @@ const RecommendationsBooksWrapper = styled.div`
   margin: -128px 0px 0px -220px;
 `
 const BlogBooksWrapper = styled.div`
-  margin: -128px 0px 0px -100px;
+  margin: -128px 0px 0px -60px;
 `
 
 const Text = styled.p`
