@@ -7,45 +7,15 @@ export const shelves = [
   },
   {
     text: 'You can check out my: ',
-    books: [
-      {
-        description: 'Bio',
-      },
-      {
-        description: 'Projects',
-      },
-      {
-        description: 'Skills',
-      },
-      {
-        description: 'Resumé',
-      },
-    ],
+    aboutMe: 'true',
   },
   {
     text: 'Some of my favorite: ',
-    books: [
-      {
-        description: 'Blogs',
-      },
-      {
-        description: 'Books',
-      },
-      {
-        description: 'Podcasts',
-      },
-    ],
+    recommendation: 'true',
   },
   {
     text: 'I also write here:',
     latest: '',
-    books: [
-      {
-        description: '2019',
-      },
-      {
-        description: '2018',
-      },
-    ],
+    blog: 'true',
   },
 ]

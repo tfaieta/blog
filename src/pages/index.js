@@ -4,6 +4,8 @@ import { shelves } from './shelveData'
 import '../styles/styles.css'
 import Book from '../components/Book/book'
 import AboutMeBooks from '../components/AboutMeBooks/AboutMeBooks'
+import RecommendationBooks from '../components/RecommendationBooks/RecommendationBooks'
+import BlogBooks from '../components/BlogBooks/BlogBooks'
 
 class BlogIndex extends React.Component {
   render() {
@@ -12,12 +14,26 @@ class BlogIndex extends React.Component {
         {shelves.map((shelf, index) => (
           <BookShelf>
             <Text key={index}>{shelf.text}</Text>
-            {shelf.books ? (
+            {shelf.aboutMe ? (
               <AboutMeBooksWrapper>
                 <AboutMeBooks />
               </AboutMeBooksWrapper>
             ) : (
-              <div />
+              <React.Fragment />
+            )}
+            {shelf.recommendation ? (
+              <RecommendationsBooksWrapper>
+                <RecommendationBooks />
+              </RecommendationsBooksWrapper>
+            ) : (
+              <React.Fragment />
+            )}
+            {shelf.blog ? (
+              <BlogBooksWrapper>
+                <BlogBooks />
+              </BlogBooksWrapper>
+            ) : (
+              <React.Fragment />
             )}
           </BookShelf>
         ))}
@@ -49,6 +65,13 @@ const BookShelf = styled.div`
 
 const AboutMeBooksWrapper = styled.div`
   margin: -128px 0px 0px -140px;
+`
+
+const RecommendationsBooksWrapper = styled.div`
+  margin: -128px 0px 0px -220px;
+`
+const BlogBooksWrapper = styled.div`
+  margin: -128px 0px 0px -100px;
 `
 
 const Text = styled.p`
