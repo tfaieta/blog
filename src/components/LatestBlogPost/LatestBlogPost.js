@@ -14,8 +14,8 @@ export default LatestBlogPost
 
 const ButtonWrapper = styled.button`
   position: absolute;
-  bottom: 43px;
-  left: 220px;
+  bottom: 4.5%;
+  left: 50%;
   background: transparent;
   border: none;
   cursor: pointer;

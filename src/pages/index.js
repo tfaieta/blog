@@ -7,43 +7,49 @@ import AboutMeBooks from '../components/AboutMeBooks/AboutMeBooks'
 import RecommendationBooks from '../components/RecommendationBooks/RecommendationBooks'
 import BlogBooks from '../components/BlogBooks/BlogBooks'
 import LatestBlogPost from '../components/LatestBlogPost/LatestBlogPost'
+import Footer from '../components/Footer/Footer'
 class BlogIndex extends React.Component {
   render() {
     return (
-      <Container>
-        {shelves.map((shelf, index) => (
-          <BookShelf>
-            <Text key={index}>{shelf.text}</Text>
-            {shelf.aboutMe ? (
-              <AboutMeBooksWrapper>
-                <AboutMeBooks />
-              </AboutMeBooksWrapper>
-            ) : (
-              <React.Fragment />
-            )}
-            {shelf.recommendation ? (
-              <RecommendationsBooksWrapper>
-                <RecommendationBooks />
-              </RecommendationsBooksWrapper>
-            ) : (
-              <React.Fragment />
-            )}
-            {shelf.blog ? (
-              <BlogBooksWrapper>
-                <LatestBlogPost />
-                <BlogBooks />
-              </BlogBooksWrapper>
-            ) : (
-              <React.Fragment />
-            )}
-          </BookShelf>
-        ))}
-      </Container>
+      <Wrapper>
+        <Container>
+          {shelves.map((shelf, index) => (
+            <BookShelf>
+              <Text key={index}>{shelf.text}</Text>
+              {shelf.aboutMe ? (
+                <AboutMeBooksWrapper>
+                  <AboutMeBooks />
+                </AboutMeBooksWrapper>
+              ) : (
+                <React.Fragment />
+              )}
+              {shelf.recommendation ? (
+                <RecommendationsBooksWrapper>
+                  <RecommendationBooks />
+                </RecommendationsBooksWrapper>
+              ) : (
+                <React.Fragment />
+              )}
+              {shelf.blog ? (
+                <BlogBooksWrapper>
+                  <LatestBlogPost />
+                  <BlogBooks />
+                </BlogBooksWrapper>
+              ) : (
+                <React.Fragment />
+              )}
+            </BookShelf>
+          ))}
+        </Container>
+        <Footer />
+      </Wrapper>
     )
   }
 }
 
 export default BlogIndex
+
+const Wrapper = styled.div``
 
 const Container = styled.div`
   background: #272c2f;
@@ -72,7 +78,7 @@ const RecommendationsBooksWrapper = styled.div`
   margin: -128px 0px 0px -220px;
 `
 const BlogBooksWrapper = styled.div`
-  margin: -128px 0px 0px -60px;
+  margin: -128px 0px 0px -320px;
 `
 
 const Text = styled.p`
