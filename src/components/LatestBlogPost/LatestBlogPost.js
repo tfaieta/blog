@@ -89,7 +89,7 @@ const BookLine = styled.div`
   position: absolute;
   height: 925px;
   margin-left: 20px;
-  margin-top: -339px;
+  margin-top: -374px;
   background: #faf8ea;
 `
 
@@ -108,9 +108,9 @@ const Title = styled.h1`
 `
 const Caption = styled.p`
   letter-spacing: -0.04em;
-  font-size: 1.4eem;
-  font-weight: 500;
-  line-height: 2;
+  font-size: 1.5em;
+  font-weight: 600;
+  line-height: 1.3;
   text-align: left;
   color: #faf8ea;
 `
