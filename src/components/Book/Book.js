@@ -12,6 +12,7 @@ const Wrapper = styled.button`
   border: none;
   cursor: pointer;
   transition: all 150ms linear;
+  position: absolute;
 
   -webkit-appearance: none;
   -moz-appearance: none;

@@ -2,20 +2,21 @@ import React from 'react'
 import styled from 'styled-components'
 import { shelves } from './shelveData'
 import '../styles/styles.css'
-import Book from '../components/Book/book'
 import AboutMeBooks from '../components/AboutMeBooks/AboutMeBooks'
 import RecommendationBooks from '../components/RecommendationBooks/RecommendationBooks'
 import BlogBooks from '../components/BlogBooks/BlogBooks'
 import LatestBlogPost from '../components/LatestBlogPost/LatestBlogPost'
 import Footer from '../components/Footer/Footer'
+import Bookshelf from '../components/Bookshelf/Bookshelf'
+
 class BlogIndex extends React.Component {
   render() {
     return (
-      <Wrapper>
+      <Parent>
         <Container>
           {shelves.map((shelf, index) => (
-            <BookShelf>
-              <Text key={index}>{shelf.text}</Text>
+            <Parent>
+              <Bookshelf key={index} text={shelf.text} />
               {shelf.aboutMe ? (
                 <AboutMeBooksWrapper>
                   <AboutMeBooks />
@@ -38,54 +39,35 @@ class BlogIndex extends React.Component {
               ) : (
                 <React.Fragment />
               )}
-            </BookShelf>
+            </Parent>
           ))}
         </Container>
         <Footer />
-      </Wrapper>
+      </Parent>
     )
   }
 }
 
 export default BlogIndex
 
-const Wrapper = styled.div``
+const Parent = styled.div``
 
 const Container = styled.div`
   background: #272c2f;
-  -webkit-font-smoothing: antialiased;
   width: 100%;
   height: 1000px;
-  margin: 0 auto;
-  text-align: center;
-  display: grid;
-  grid-template-rows: repeat(5, auto);
+  padding-top: 50px;
   align-items: center;
   justify-items: center;
 `
 
-const BookShelf = styled.div`
-  width: 726px;
-  height: 31px;
-  background: #faf8ea;
-`
-
 const AboutMeBooksWrapper = styled.div`
-  margin: -128px 0px 0px -140px;
+  margin: 0px 0px 0px 0px;
 `
 
 const RecommendationsBooksWrapper = styled.div`
-  margin: -128px 0px 0px -220px;
+  margin: 0px 0px 0px 0px;
 `
 const BlogBooksWrapper = styled.div`
-  margin: -128px 0px 0px -320px;
-`
-
-const Text = styled.p`
-  color: #faf8ea;
-  text-align: left;
-  margin: -30px 0px 0px 2px;
-  font-size: 22px;
-  letter-spacing: -0.04em;
-  font-weight: 740;
+  margin: 0px 0px 0px 0px;
 `
