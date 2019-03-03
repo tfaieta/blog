@@ -60,7 +60,7 @@
     "develop": "gatsby develop",
     "start": "yarn develop",
     "build": "gatsby build",
-    "now-build": "yarn build",
+    "now-build": "yarn lint && yarn fix-semi && gatsby build",
     "fix-semi": "eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix gatsby-node.js"
   }
 }
