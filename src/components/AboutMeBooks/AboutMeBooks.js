@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import Book from '../Book/book'
+import Book from '../Book/Book'
 import Bio from './Bio.png'
 import Projects from './Projects.png'
 import Resume from './Resume.png'

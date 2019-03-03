@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import Book from '../Book/book'
+import Book from '../Book/Book'
 import Blogs from './Blogs.png'
 import Books from './Books.png'
 import Podcasts from './Podcasts.png'

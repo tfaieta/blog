@@ -4,7 +4,9 @@ import styled from 'styled-components'
 const Footer = () => {
   return (
     <Wrapper>
-      <Right>This site was made with ❤️ in Gainesville, FL</Right>
+      <Right>
+        This site was made with ❤️ in Gainesville, FL, (still in development)
+      </Right>
       {/* <AllMyContactInfo /> */}
     </Wrapper>
   )
