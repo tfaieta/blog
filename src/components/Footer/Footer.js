@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <Wrapper>
       <Right>
-        This site was made with <span role="img" aria-label="Heart">❤️</span> in Gainesville, FL (still in development)
+        This site was made with <span role="img" aria-label="Heart">❤️</span> in Gainesville, FL (this site is still a draft)
       </Right>
       {/* <AllMyContactInfo /> */}
     </Wrapper>
