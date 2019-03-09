@@ -1,6 +1,6 @@
-import React, { PureComponent } from 'react'
-import styled from 'styled-components'
-import Latest from './Latest.png'
+import React, { PureComponent } from "react"
+import styled from "styled-components"
+import latest from "./latest.png"
 
 class LatestBlogPost extends PureComponent {
   constructor(props) {
@@ -35,7 +35,7 @@ class LatestBlogPost extends PureComponent {
       </ScaledBook>
     ) : (
       <ButtonWrapper onClick={this.openBook}>
-        <img src={Latest} />
+        <img alt="" src={latest} />
       </ButtonWrapper>
     )
   }

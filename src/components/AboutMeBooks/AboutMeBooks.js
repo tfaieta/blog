@@ -1,25 +1,25 @@
-import React from 'react'
-import styled from 'styled-components'
-import Book from '../Book/Book'
-import Bio from './Bio.png'
-import Projects from './Projects.png'
-import Resume from './Resume.png'
-import Skills from './Skills.png'
+import React from "react"
+import styled from "styled-components"
+import Book from "../book/book"
+import bio from "./bio.png"
+import projects from "./projects.png"
+import resume from "./resume.png"
+import skills from "./skills.png"
 
 const AboutMeBooks = () => {
   return (
     <Wrapper>
       <Book>
-        <img src={Bio} />
+        <img alt="" src={bio} />
       </Book>
       <Book>
-        <img src={Projects} />
+        <img alt="" src={projects} />
       </Book>
       <Book>
-        <img src={Resume} />
+        <img alt="" src={resume} />
       </Book>
       <Book>
-        <img src={Skills} />
+        <img alt="" src={skills} />
       </Book>
     </Wrapper>
   )

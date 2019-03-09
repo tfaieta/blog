@@ -1,11 +1,11 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from "react"
+import styled from "styled-components"
 
 const Footer = () => {
   return (
     <Wrapper>
       <Right>
-        This site was made with ❤️ in Gainesville, FL, (still in development)
+        This site was made with <span role="img" aria-label="Heart">❤️</span> in Gainesville, FL (still in development)
       </Right>
       {/* <AllMyContactInfo /> */}
     </Wrapper>

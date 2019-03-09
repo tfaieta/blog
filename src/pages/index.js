@@ -1,12 +1,12 @@
-import React from 'react'
-import styled from 'styled-components'
-import '../styles/styles.css'
-import AboutMeBooks from '../components/AboutMeBooks/AboutMeBooks'
-import RecommendationBooks from '../components/RecommendationBooks/RecommendationBooks'
-import BlogBooks from '../components/BlogBooks/BlogBooks'
-import LatestBlogPost from '../components/LatestBlogPost/LatestBlogPost'
-import Footer from '../components/Footer/Footer'
-import Bookshelf from '../components/Bookshelf/Bookshelf'
+import React from "react"
+import styled from "styled-components"
+import "../styles/styles.css"
+import AboutMeBooks from "../components/aboutMeBooks/aboutMeBooks"
+import RecommendationBooks from "../components/recommendationBooks/recommendationBooks"
+import BlogBooks from "../components/blogBooks/blogBooks"
+import LatestBlogPost from "../components/latestBlogPost/latestBlogPost"
+import Footer from "../components/footer/footer"
+import Bookshelf from "../components/bookshelf/bookshelf"
 
 class BlogIndex extends React.Component {
   render() {
@@ -73,22 +73,22 @@ const BlogBooksWrapper = styled.div`
 
 const shelves = [
   {
-    text: 'Hi, I’m Tony Faieta.',
+    text: "Hi, I’m Tony Faieta.",
   },
   {
-    text: 'I’m a creative software engineer.',
+    text: "I’m a creative software engineer.",
   },
   {
-    text: 'You can check out my: ',
-    aboutMe: 'true',
+    text: "You can check out my: ",
+    aboutMe: "true",
   },
   {
-    text: 'Some of my favorite: ',
-    recommendation: 'true',
+    text: "Some of my favorite: ",
+    recommendation: "true",
   },
   {
-    text: 'I also write here:',
-    latest: '',
-    blog: 'true',
+    text: "I also write here:",
+    latest: "",
+    blog: "true",
   },
 ]

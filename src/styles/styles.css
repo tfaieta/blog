@@ -1,0 +1,79 @@
+/* ------------------------------------------------------------------------
+GLOBALS
+------------------------------------------------------------------------ */
+@import url('https://rsms.me/inter/inter.css');
+html {
+  font-family: 'Inter', sans-serif;
+}
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: 'Inter var', sans-serif;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ------------------------------------------------------------------------
+RESPONSIVENESS
+------------------------------------------------------------------------ */
+/* Smartphones (portrait and landscape) ----------- */
+@media (min-width: 320px) {
+  p {
+    font-size: 16px;
+    letter-spacing: -0.04em;
+    font-weight: 740;
+  }
+}
+
+/* iPads ----------- */
+@media (min-width: 768px) {
+  p {
+    font-size: 18px;
+    letter-spacing: -0.04em;
+    font-weight: 740;
+  }
+}
+
+/* Desktops and laptops ----------- */
+@media (min-width: 1024px) {
+  p {
+    font-size: 22px;
+    letter-spacing: -0.04em;
+    font-weight: 740;
+  }
+}
+
+/* Desktops and laptops ----------- */
+@media (min-width: 1280px) {
+  p {
+    font-size: 24px;
+    letter-spacing: -0.04em;
+    font-weight: 740;
+  }
+}
+
+/* Desktops and laptops ----------- */
+@media (min-width: 1300px) {
+  p {
+    font-size: 26px;
+    letter-spacing: -0.04em;
+    font-weight: 740;
+  }
+}
+
+/* Large screens ----------- */
+@media (min-width: 1600px) {
+  p {
+    font-size: 30px;
+    letter-spacing: -0.04em;
+    font-weight: 740;
+  }
+}
