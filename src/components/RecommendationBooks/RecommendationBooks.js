@@ -5,10 +5,11 @@ import blogs from "./blogs.png"
 import books from "./books.png"
 import podcasts from "./podcasts.png"
 import { Flex, Box } from "@rebass/grid"
+import BookWrapper from "../booksWrapper/booksWrapper"
 
 const RecommendationBooks = () => {
   return (
-    <Wrapper>
+    <BookWrapper>
       <Flex flexDirection="row" flexWrap="wrap">
         <Box mr={2} ml={2} px={3}>
           <Book>
@@ -26,15 +27,8 @@ const RecommendationBooks = () => {
           </Book>
         </Box>
       </Flex>
-    </Wrapper>
+    </BookWrapper>
   )
 }
 
 export default RecommendationBooks
-
-const Wrapper = styled.div`
-  img {
-    max-width: 13%;
-    height: auto;
-  }
-`

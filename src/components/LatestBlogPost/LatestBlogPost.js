@@ -43,11 +43,11 @@ class LatestBlogPost extends PureComponent {
 
 export default LatestBlogPost
 
+// TODO: MAKE RESPONSIVE
 const ButtonWrapper = styled.button`
   position: absolute;
-  bottom: 4.5%;
   left: 30%;
-  padding-bottom: 107px;
+  bottom: 12.6%;
   background: transparent;
   border: none;
   cursor: pointer;

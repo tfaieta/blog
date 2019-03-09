@@ -6,10 +6,11 @@ import projects from "./projects.png"
 import resume from "./resume.png"
 import skills from "./skills.png"
 import { Flex, Box } from "@rebass/grid"
+import BookWrapper from "../booksWrapper/booksWrapper"
 
 const AboutMeBooks = () => {
   return (
-    <Wrapper>
+    <BookWrapper>
       <Flex flexDirection="row" flexWrap="wrap">
         <Box mr={2} ml={2} px={3}>
           <Book>
@@ -32,15 +33,8 @@ const AboutMeBooks = () => {
           </Book>
         </Box>
       </Flex>
-    </Wrapper>
+    </BookWrapper>
   )
 }
 
 export default AboutMeBooks
-
-const Wrapper = styled.div`
-  img {
-    max-width: 13%;
-    height: auto;
-  }
-`

@@ -1,12 +1,11 @@
-import React from "react"
+import React, { Fragment } from "react"
 import styled from "styled-components"
 import "../styles/styles.css"
 import AboutMeBooks from "../components/aboutMeBooks/aboutMeBooks"
 import RecommendationBooks from "../components/recommendationBooks/recommendationBooks"
-import BlogBooks from "../components/blogBooks/blogBooks"
-import LatestBlogPost from "../components/latestBlogPost/latestBlogPost"
 import Footer from "../components/footer/footer"
 import Bookshelf from "../components/bookshelf/bookshelf"
+import BlogShelf from "../components/blogShelf/blogShelf"
 
 class BlogIndex extends React.Component {
   render() {
@@ -16,28 +15,9 @@ class BlogIndex extends React.Component {
           {shelves.map((shelf, index) => (
             <Parent>
               <Bookshelf key={index} text={shelf.text}>
-                {shelf.aboutMe ? (
-                  <AboutMeBooksWrapper>
-                    <AboutMeBooks />
-                  </AboutMeBooksWrapper>
-                ) : (
-                  <React.Fragment />
-                )}
-                {shelf.recommendation ? (
-                  <RecommendationsBooksWrapper>
-                    <RecommendationBooks />
-                  </RecommendationsBooksWrapper>
-                ) : (
-                  <React.Fragment />
-                )}
-                {shelf.blog ? (
-                  <BlogBooksWrapper>
-                    <LatestBlogPost />
-                    <BlogBooks />
-                  </BlogBooksWrapper>
-                ) : (
-                  <React.Fragment />
-                )}
+                {shelf.aboutMe ? <AboutMeBooks /> : <Fragment />}
+                {shelf.recommendation ? <RecommendationBooks /> : <Fragment />}
+                {shelf.blog ? <BlogShelf /> : <Fragment />}
               </Bookshelf>
             </Parent>
           ))}
@@ -55,21 +35,10 @@ const Parent = styled.div``
 const Container = styled.div`
   background: #272c2f;
   width: 100%;
-  height: 1000px;
+  height: 1040px;
   padding-top: 50px;
   align-items: center;
   justify-items: center;
-`
-
-const AboutMeBooksWrapper = styled.div`
-  margin: -120px 0px 0px 20px;
-`
-
-const RecommendationsBooksWrapper = styled.div`
-  margin: -120px 0px 0px 20px;
-`
-const BlogBooksWrapper = styled.div`
-  margin: -120px 0px 0px 200px;
 `
 
 const shelves = [
