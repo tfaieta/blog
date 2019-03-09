@@ -31,11 +31,6 @@ const BPShelfWrapper = styled.div`
     margin: -120px 0px 0px 80px;
   }
 
-  /* Desktops and laptops ----------- */
-  @media (min-width: 1300px) {
-    margin: -120px 0px 0px 80px;
-  }
-
   /* Large screens ----------- */
   @media (min-width: 1600px) {
     margin: -120px 0px 0px 80px;

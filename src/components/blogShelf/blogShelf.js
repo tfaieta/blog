@@ -6,9 +6,8 @@ import BlogBooks from "../blogBooks/blogBooks"
 const BlogShelf = () => {
   return (
     <BlogPostShelfWrapper>
-      <LatestBlogPost>
-        <BlogBooks />
-      </LatestBlogPost>
+      <LatestBlogPost />
+      <BlogBooks />
     </BlogPostShelfWrapper>
   )
 }

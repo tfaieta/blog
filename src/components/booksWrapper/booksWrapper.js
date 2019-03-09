@@ -9,6 +9,7 @@ const Wrapper = styled.div`
   /* ------------------------------------------------------------------------
   RESPONSIVENESS
   ------------------------------------------------------------------------ */
+
   /* Smartphones (portrait and landscape) ----------- */
   @media (min-width: 320px) {
     margin: -120px 0px 0px 80px;
@@ -21,7 +22,7 @@ const Wrapper = styled.div`
 
   /* iPads ----------- */
   @media (min-width: 768px) {
-    margin: -120px 0px 0px 80px;
+    margin: -100px 0px 0px 80px;
 
     img {
       max-width: 13%;
@@ -45,16 +46,6 @@ const Wrapper = styled.div`
 
     img {
       max-width: 14%;
-      height: auto;
-    }
-  }
-
-  /* Desktops and laptops ----------- */
-  @media (min-width: 1300px) {
-    margin: -120px 0px 0px 80px;
-
-    img {
-      max-width: 13%;
       height: auto;
     }
   }

@@ -20,7 +20,6 @@ export default Bookshelf
 const Text = styled.p`
   color: #faf8ea;
   text-align: left;
-  margin: -55px 0px 0px -8px;
 
   /* ------------------------------------------------------------------------
   RESPONSIVENESS
@@ -43,11 +42,6 @@ const Text = styled.p`
   /* Desktops and laptops ----------- */
   @media (min-width: 1280px) {
     margin: -55px 0px 0px -8px;
-  }
-
-  /* Desktops and laptops ----------- */
-  @media (min-width: 1300px) {
-    margin: -60px 0px 0px -8px;
   }
 
   /* Large screens ----------- */

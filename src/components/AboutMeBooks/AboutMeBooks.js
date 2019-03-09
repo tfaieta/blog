@@ -1,5 +1,4 @@
 import React from "react"
-import styled from "styled-components"
 import Book from "../book/book"
 import bio from "./bio.png"
 import projects from "./projects.png"

@@ -1,13 +1,13 @@
 /* ------------------------------------------------------------------------
 GLOBALS
 ------------------------------------------------------------------------ */
-@import url('https://rsms.me/inter/inter.css');
+@import url("https://rsms.me/inter/inter.css");
 html {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 @supports (font-variation-settings: normal) {
   html {
-    font-family: 'Inter var', sans-serif;
+    font-family: "Inter var", sans-serif;
   }
 }
 
@@ -55,15 +55,6 @@ RESPONSIVENESS
 @media (min-width: 1280px) {
   p {
     font-size: 24px;
-    letter-spacing: -0.04em;
-    font-weight: 740;
-  }
-}
-
-/* Desktops and laptops ----------- */
-@media (min-width: 1300px) {
-  p {
-    font-size: 26px;
     letter-spacing: -0.04em;
     font-weight: 740;
   }
