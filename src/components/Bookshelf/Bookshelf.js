@@ -8,6 +8,7 @@ const Bookshelf = props => {
       <Box px={2} py={3} width={1 / 10} />
       <Box px={2} py={3} bg="#faf8ea" width={8 / 10}>
         <Text>{props.text}</Text>
+        <Flex flexDirection="row">{props.children}</Flex>
       </Box>
       <Box px={2} py={3} width={1 / 10} />
     </Flex>

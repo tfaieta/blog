@@ -46,7 +46,8 @@ export default LatestBlogPost
 const ButtonWrapper = styled.button`
   position: absolute;
   bottom: 4.5%;
-  left: 50%;
+  left: 30%;
+  padding-bottom: 107px;
   background: transparent;
   border: none;
   cursor: pointer;
@@ -57,7 +58,7 @@ const ButtonWrapper = styled.button`
   appearance: none;
 
   img {
-    height: 150px;
+    height: 120px;
   }
 
   &:hover {

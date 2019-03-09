@@ -15,29 +15,30 @@ class BlogIndex extends React.Component {
         <Container>
           {shelves.map((shelf, index) => (
             <Parent>
-              <Bookshelf key={index} text={shelf.text} />
-              {shelf.aboutMe ? (
-                <AboutMeBooksWrapper>
-                  <AboutMeBooks />
-                </AboutMeBooksWrapper>
-              ) : (
-                <React.Fragment />
-              )}
-              {shelf.recommendation ? (
-                <RecommendationsBooksWrapper>
-                  <RecommendationBooks />
-                </RecommendationsBooksWrapper>
-              ) : (
-                <React.Fragment />
-              )}
-              {shelf.blog ? (
-                <BlogBooksWrapper>
-                  <LatestBlogPost />
-                  <BlogBooks />
-                </BlogBooksWrapper>
-              ) : (
-                <React.Fragment />
-              )}
+              <Bookshelf key={index} text={shelf.text}>
+                {shelf.aboutMe ? (
+                  <AboutMeBooksWrapper>
+                    <AboutMeBooks />
+                  </AboutMeBooksWrapper>
+                ) : (
+                  <React.Fragment />
+                )}
+                {shelf.recommendation ? (
+                  <RecommendationsBooksWrapper>
+                    <RecommendationBooks />
+                  </RecommendationsBooksWrapper>
+                ) : (
+                  <React.Fragment />
+                )}
+                {shelf.blog ? (
+                  <BlogBooksWrapper>
+                    <LatestBlogPost />
+                    <BlogBooks />
+                  </BlogBooksWrapper>
+                ) : (
+                  <React.Fragment />
+                )}
+              </Bookshelf>
             </Parent>
           ))}
         </Container>
@@ -61,14 +62,14 @@ const Container = styled.div`
 `
 
 const AboutMeBooksWrapper = styled.div`
-  margin: 0px 0px 0px 0px;
+  margin: -120px 0px 0px 20px;
 `
 
 const RecommendationsBooksWrapper = styled.div`
-  margin: 0px 0px 0px 0px;
+  margin: -120px 0px 0px 20px;
 `
 const BlogBooksWrapper = styled.div`
-  margin: 0px 0px 0px 0px;
+  margin: -120px 0px 0px 200px;
 `
 
 const shelves = [
