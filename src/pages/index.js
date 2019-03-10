@@ -13,11 +13,15 @@ class BlogIndex extends React.Component {
       <Parent>
         <Container>
           {shelves.map((shelf, index) => (
-            <Parent>
+            <Parent key={index}>
               <Bookshelf key={index} text={shelf.text}>
-                {shelf.aboutMe ? <AboutMeBooks /> : <Fragment />}
-                {shelf.recommendation ? <RecommendationBooks /> : <Fragment />}
-                {shelf.blog ? <BlogShelf /> : <Fragment />}
+                {shelf.aboutMe ? <AboutMeBooks key={index} /> : <Fragment />}
+                {shelf.recommendation ? (
+                  <RecommendationBooks key={index} />
+                ) : (
+                  <Fragment />
+                )}
+                {shelf.blog ? <BlogShelf key={index} /> : <Fragment />}
               </Bookshelf>
             </Parent>
           ))}

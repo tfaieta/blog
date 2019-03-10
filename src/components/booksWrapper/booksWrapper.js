@@ -13,11 +13,11 @@ const Wrapper = styled.div`
   /* DONE */
   /* Smartphones (portrait and landscape) ----------- */
   @media (min-width: 320px) {
-    margin: -120px 0px 0px -90px;
+    margin: -115px 0px 0px 0px;
 
     img {
-      max-width: 13%;
-      height: auto;
+      max-width: 80px;
+      height: 140px;
     }
   }
 
