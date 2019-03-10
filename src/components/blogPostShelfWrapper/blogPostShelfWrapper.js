@@ -13,26 +13,26 @@ const BPShelfWrapper = styled.div`
   ------------------------------------------------------------------------ */
   /* Smartphones (portrait and landscape) ----------- */
   @media (min-width: 320px) {
-    margin: -120px 0px 0px 80px;
+    margin: -120px 0px 0px 40px;
   }
 
-  /* iPads and half of my computer screen ----------- */
+  /* Half my screen ----------- */
   @media (min-width: 768px) {
     margin: -118px 0px 0px 50px;
   }
 
-  /* Desktops and laptops ----------- */
+  /* 3/4 my screen ----------- */
   @media (min-width: 1024px) {
     margin: -120px 0px 0px 80px;
   }
 
-  /* Desktops and laptops ----------- */
+  /* My whole screen  ----------- */
   @media (min-width: 1280px) {
-    margin: -120px 0px 0px 80px;
+    margin: -125px 0px 0px 80px;
   }
 
-  /* Large screens ----------- */
+  /* My monitor screen ----------- */
   @media (min-width: 1600px) {
-    margin: -120px 0px 0px 80px;
+    margin: -125px 0px 0px 120px;
   }
 `

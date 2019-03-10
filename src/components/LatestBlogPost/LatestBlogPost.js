@@ -47,7 +47,7 @@ export default LatestBlogPost
 const ButtonWrapper = styled.button`
   position: absolute;
   left: 30%;
-  bottom: 12.6%;
+  margin: 12px 0px 0px 0px;
   background: transparent;
   border: none;
   cursor: pointer;
@@ -72,6 +72,32 @@ const ButtonWrapper = styled.button`
 
   &:focus {
     outline: none;
+  }
+
+  /* ------------------------------------------------------------------------
+  RESPONSIVENESS
+  ------------------------------------------------------------------------ */
+  /* Smartphones (portrait and landscape) ----------- */
+  @media (min-width: 320px) {
+  }
+
+  /* Half my screen ----------- */
+  @media (min-width: 768px) {
+  }
+
+  /* 3/4 my screen ----------- */
+  @media (min-width: 1024px) {
+    left: 26%;
+  }
+
+  /* My whole screen  ----------- */
+  @media (min-width: 1280px) {
+    left: 25%;
+  }
+
+  /* My monitor screen ----------- */
+  @media (min-width: 1600px) {
+    left: 25%;
   }
 `
 
